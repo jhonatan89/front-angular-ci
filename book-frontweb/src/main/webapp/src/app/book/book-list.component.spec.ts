@@ -44,6 +44,7 @@ describe('BookListComponent', () => {
 
     it('a book should be a book (first and last)', () => {
         component.books = books;
+        //revisar todos los libros
         expect(component.books[0].name).toEqual(books[0].name);
         expect(component.books[books.length - 1].name).toEqual(books[books.length - 1].name);
     });
