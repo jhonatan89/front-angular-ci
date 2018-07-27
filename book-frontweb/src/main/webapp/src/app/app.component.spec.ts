@@ -4,9 +4,9 @@ import { APP_BASE_HREF } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { BookListComponent } from './book/book-list.component';
-import { AuthorComponent } from './author/author.component';
-import { EditorialComponent } from './editorial/editorial.component';
+import { BookListComponent } from './book/book-list/book-list.component';
+import { AuthorListComponent } from './author/authors-list/author-list.component';
+import { EditorialListComponent } from './editorial/editorials-list/editorial-list.component';
 
 describe('AppComponent', () => {
     let component: AppComponent;
@@ -15,7 +15,7 @@ describe('AppComponent', () => {
     beforeEach(async(() => {
         TestBed.configureTestingModule({
             imports: [ AppRoutingModule, HttpClientModule ],
-            declarations: [ AppComponent, BookListComponent, AuthorComponent, EditorialComponent ],
+            declarations: [ AppComponent, BookListComponent, AuthorListComponent, EditorialListComponent ],
             providers: [{provide: APP_BASE_HREF, useValue: ''} ]
         })
         .compileComponents();

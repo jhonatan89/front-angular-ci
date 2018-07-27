@@ -1,9 +1,9 @@
 import {NgModule, OnInit} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
-import {BookListComponent} from '../book/book-list.component';
-import {AuthorComponent} from '../author/author.component';
-import {EditorialComponent} from '../editorial/editorial.component';
+import {BookListComponent} from '../book/book-list/book-list.component';
+import {AuthorListComponent} from '../author/authors-list/author-list.component';
+import {EditorialListComponent} from '../editorial/editorials-list/editorial-list.component';
 
 
 const routes: Routes = [
@@ -14,11 +14,11 @@ const routes: Routes = [
     },
     {
         path: 'authors',
-        component: AuthorComponent
+        component: AuthorListComponent
     },
     {
         path: 'editorials',
-        component: EditorialComponent,
+        component: EditorialListComponent,
     }
 ];
 
