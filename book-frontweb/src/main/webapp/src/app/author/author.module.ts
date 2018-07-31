@@ -1,12 +1,11 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {BookService} from '../book.service';
-import {BookListComponent} from './book-list.component';
+import {AuthorService} from './author.service';
+import {AuthorListComponent} from './authors-list/author-list.component';
 import {BrowserModule} from '@angular/platform-browser';
-import {AppRoutingModule} from '../../routing-module/app-routing.module';
+import {AppRoutingModule} from '../routing-module/app-routing.module';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
-
 
 @NgModule({
     imports: [
@@ -17,9 +16,9 @@ import {FormsModule} from '@angular/forms';
         FormsModule
     ],
     declarations: [
-        BookListComponent
+        AuthorListComponent
     ],
-    providers: [BookService],
-    bootstrap: [BookListComponent]
+    providers: [AuthorService],
+    bootstrap: [AuthorListComponent]
 })
-export class BookModule {}
+export class AuthorModule {}

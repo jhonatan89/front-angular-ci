@@ -3,9 +3,9 @@ import {NgModule} from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './routing-module/app-routing.module';
-import {AuthorModule} from './author/authors-list/author-list.module';
-import {BookModule} from './book/book-list/book-list.module';
-import {EditorialModule} from './editorial/editorials-list/editorial-list.module';
+import {AuthorModule} from './author/author.module';
+import {BookModule} from './book/book.module';
+import {EditorialModule} from './editorial/editorial.module';
 import {FormsModule} from '@angular/forms';
 
 
