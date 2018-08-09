@@ -1,0 +1,18 @@
+<div id="alertPanel" style="text-align: center"></div>
+<div class="container-fluid">
+    <div class="col-md-2">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>    
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor = "let editorial of editorials">
+                    <td>{{editorial.name}}</td>
+                  
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
