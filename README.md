@@ -1,8 +1,27 @@
-# backstepbystep
+# Bookstore
 
-# Tutorial Backend Desarrollo Web Tienda de Libros
-* [Paso 1: Entidad Editorial](https://csw-uniandes.gitbooks.io/back-step-by-step/content/pasos/paso1/paso1_crearEditiorial.html)
-* [Paso 2: Entidad Editorial CRUD](https://csw-uniandes.gitbooks.io/back-step-by-step/content/pasos/paso2/paso2_crudEditorial.html)
-* [Paso 3: Entidad Editorial - Book](https://csw-uniandes.gitbooks.io/back-step-by-step/content/pasos/paso3/paso3_editorial_book.html)
-* [Paso 4: Entidad Book - Reviews](https://csw-uniandes.gitbooks.io/back-step-by-step/content/pasos/paso4/paso4_book_review.html)
-* [Paso 5: Entidad Book - Author](https://csw-uniandes.gitbooks.io/back-step-by-step/content/pasos/paso5/paso5_book_author.html)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
