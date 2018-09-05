@@ -9,7 +9,8 @@
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
-        "compodoc": "./node_modules/.bin/compodoc -p src/tsconfig.app.json -w -s"
+        "compodoc": "./node_modules/.bin/compodoc -p src/tsconfig.app.json -w -s",
+        "cibuild": "ng test --code-coverage  && ng build --prod --no-progress"
     },
     "private": true,
     "dependencies": {
